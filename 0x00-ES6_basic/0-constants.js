@@ -1,11 +1,11 @@
 // Using const variable
-function taskFirst()
+export function taskFirst()
 {
     const A = 'MARWAN MOSTAFA';
     return(A);
 }
 // Using second variable
-function taskNext()
+export function taskNext()
 {
     let B = 'Engineering';
     return(B);
