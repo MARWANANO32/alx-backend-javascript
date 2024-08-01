@@ -1,12 +1,15 @@
-// Using const variable
-export function taskFirst()
-{
-    const A = 'MARWAN MOSTAFA';
-    return(A);
-}
-// Using second variable
-export function taskNext()
-{
-    let B = 'Engineering';
-    return(B);
-}
+export function taskFirst() {
+    var task = 'I prefer const when I can.';
+    return task;
+  }
+  
+  export function getLast() {
+    return ' is okay';
+  }
+  
+  export function taskNext() {
+    var combination = 'But sometimes let';
+    combination += getLast();
+  
+    return combination;
+  }
