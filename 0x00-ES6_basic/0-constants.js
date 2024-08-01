@@ -1,10 +1,12 @@
 // Using const variable
 function taskFirst()
 {
-    const A = 'MARWAN MOSTAFA'
+    const A = 'MARWAN MOSTAFA';
+    return (A);
 }
 // Using second variable
 function taskNext()
 {
-    let B = 'Engineering'
+    let B = 'Engineering';
+    return (B);
 }
