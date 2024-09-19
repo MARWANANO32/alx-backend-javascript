@@ -2,8 +2,9 @@
  * Logs a message to the console.
  */
 // Arrow function
-const displayMessage = (message) => console.log(message);
-
+const displayMessage = (message) => {
+    console.log(message);
+}
 /**
  * Exports the displayMessage function.
  */
