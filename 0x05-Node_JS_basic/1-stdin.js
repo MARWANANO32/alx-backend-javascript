@@ -9,5 +9,5 @@ process.stdin.on('data', (data) => {
 });
 // Third message that will close the process after the user input
 process.on('exit', () => {
-    console.log("This important software is now closing");
+    console.log("This important software is now closing\n");
 });
