@@ -4,7 +4,8 @@
  * @returns {void}
  */
 // Arrow function
-const displayMessage = (message) => console.log("STDOUT: " + message);
+const displayMessage = (message) => console.log(message);
+
 /**
  * Exports the displayMessage function.
  * @module displayMessage
